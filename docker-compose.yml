@@ -1,0 +1,7 @@
+version: "3"
+services:
+  dotnet:
+    build: ./dotnet
+    ports:
+      - "10022:22"
+    restart: always
